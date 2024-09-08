@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #ff5733;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('comedy-bg.jpg') no-repeat center center/cover;
+    color: black;
+    height: 300px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* About Section */
+.about-section {
+    background-color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.about-section p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Video Section */
+.videos-section {
+    padding: 40px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.video-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.video-item {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e74c3c;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.profile-photo {
+    border-radius: 50%;
+}
